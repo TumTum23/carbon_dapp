@@ -1,0 +1,93 @@
+.wallet-container {
+  background-color: #663399; /* Purple */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center text within the container */
+}
+
+.connect-wallet-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  color: #663399; /* Purple */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.wallet-header {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.mint-section{
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 20px auto; /* Center the sections horizontally */
+  padding: 20px;
+  width: 45%; /* Adjust the width as needed */
+  color: white; /* Text color for .mint-section and .eth-section and .token-section */
+}
+
+.eth-section,
+.token-section {
+  border: 2px solid white;
+  border-radius: 10px;
+  margin: 20px ; /* Center the sections horizontally */
+  padding: 20px;
+  width: 50%; /* Adjust the width as needed */
+  color: white; /* Text color for .mint-section and .eth-section and .token-section */
+}
+.transfer-section {
+  display: flex;
+  justify-content: center; /* Center the content horizontally within the container */
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: white;
+  color: #663399; /* Purple */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #eee;
+}
+
+.tx-hash {
+  margin-top: 20px;
+  font-size: 14px;
+}
